@@ -51,6 +51,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 48px;
   margin: 0px 0px 0px 0px;
+  color: #3f5c7c;
 }
 
 p {
@@ -70,4 +71,43 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* on hover, zoom on resume */
+.resume:hover {
+  -webkit-transform:scale(1.5);
+  transform:scale(1.5);
+}
+
+form {
+  background-color: #9ba89e;
+  color: #ffffff;
+  font-family: 'Gentium Basic';
+  margin: 5% 10% 5% 10%;
+  padding: 5% 20% 5% 20%;
+  font-size: 22px;
+}
+
+.big-text {
+  text-align: center;
+  margin-top: 5%;
+}
+
+textarea {
+  margin-top: 5px;
+  font-size: 22px;
+  font-family: 'Gentium Basic';
+}
+
+.sm-icons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.sm-icons img {
+  width: 50px;
+  height: 50px;
+  padding: 0px 10px 0px 10px;
 }
