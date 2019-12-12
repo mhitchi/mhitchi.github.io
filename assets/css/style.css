@@ -1,8 +1,9 @@
 nav {
-  background-color: #fff;
+  background-color: rgb(255,255,255,0.85);
   z-index: 99;
   height: 75px;
   width: 100%;
+  position: fixed;
 }
 
 .logo {
@@ -10,14 +11,14 @@ nav {
   height: auto;
   position: absolute;
   left: 2%;
-  top: 20px;
+  top: 15px;
 }
 
 .nav-items {
   position: absolute;
   text-align: center;
   right: 5%;
-  top: 35px;
+  top: 32px;
   font-family: Arial, Helvetica, sans-serif;
   color: #3f5c7c;
 }
@@ -36,6 +37,10 @@ body {
   background-color: #faf5ed;
 }
 
+main {
+  background-image: linear-gradient (#3f5c7c, #faf5ed);
+}
+
 .page-header {
   display: flex;
   margin: 2% 25% 2% 25%
@@ -45,6 +50,7 @@ body {
   flex: 50%;
   width: 400px;
   color: #3f5c7c;
+  margin-top: 100px;
 }
 
 h1 {
@@ -103,7 +109,7 @@ textarea {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 35%;
 }
 
 .sm-icons img {
@@ -115,4 +121,10 @@ textarea {
 .grid-container {
   margin: 5% 5% 5% 5%;
   display: grid | inline-grid;
+}
+
+footer {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
