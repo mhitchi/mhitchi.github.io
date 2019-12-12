@@ -111,3 +111,8 @@ textarea {
   height: 50px;
   padding: 0px 10px 0px 10px;
 }
+
+.grid-container {
+  margin: 5% 5% 5% 5%;
+  display: grid | inline-grid;
+}
