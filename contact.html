@@ -3,7 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="assets/css/style.css" />
-  <link href='https://fonts.googleapis.com/css?family=Gentium Basic' rel='stylesheet'>
+  <!-- sans serif -->
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  <!-- serif -->
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <title>Contact</title>
 </head>
 <body>
@@ -27,12 +30,19 @@
     <div class="form">
       <h1 class="big-text">Shout out to the Void</h1>
       <form>
-        Name:<br>
-        <input type="text" name="name"><br>
-        Email:<br>
-        <input type="text" name="email"><br>
-        <textarea name="message" form="usrform">Write message here...</textarea>
-        <input type="submit" value="Submit">
+        <p>
+          <label>Name:</label><br>
+            <input type="text" name="name">
+        </p>
+        <p>
+          <label>Email:</label><br>
+            <input type="text" name="email">
+        </p>
+        <p>
+          <label></label>
+            <textarea cols="25" rows="5" name="message" form="usrform">Write message here...</textarea>
+          <input class="button" type="submit" value="Submit">
+        </p>
       </form>
     </div>
     <!-- social media icons -->
